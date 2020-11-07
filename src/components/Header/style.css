@@ -1,0 +1,75 @@
+.container-header {
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    height: 700px;
+    background-image: url("../../assets/images/banner-pizza.jpg");
+    min-height: 90%;
+}
+
+
+.nav-bar {
+    display: flex;
+    align-items: center;
+    height: 40px;
+    background-color: var(--color-background);
+    opacity: 0.7;
+}
+
+
+.nav-bar a {
+    display: flex;
+    justify-content: center;
+    width: 80px;
+    height: 40px;
+    font-size: 25px;
+    text-decoration: none;
+    color: var(--color-text);
+}
+
+.nav-bar a:hover {
+    background-color: var(--color-text);
+    color: var(--color-background);
+    width: 80px;
+    height: 40px;
+    
+}
+
+.title-banner {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.title-banner p {
+    font-size: 100px;
+    color: var(--color-text);
+    font-weight: bold;
+}
+
+.title-banner a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    width: 250px;
+    background-color: var(--color-background);
+    text-decoration: none;
+    color: var(--color-text);
+    font-size: 40px;
+}
+
+.work {
+    width: 290px;
+    background-color: var(--color-background);
+    color: var(--color-text);
+    font-size: 25px;
+    margin-left: 20px;
+    margin-top: 100px;
+}
+
+.work p {
+    margin-left: 5px;
+}

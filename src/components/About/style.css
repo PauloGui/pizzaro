@@ -1,0 +1,47 @@
+.container-about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100vw;
+    background-color: var(--color-background);
+    color: var(--color-text);
+}
+
+.container-about h1 {
+    font-size: 50px;
+    margin-top: 40px;
+}
+
+.img-aerea img {
+    width: 100vw;
+    padding: 0;
+    margin: 0;
+}
+
+.group-info {
+    width: 1000px;
+    font-size: 25px;
+    margin: 10px;
+}
+
+.chefe {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.chefe img{
+    width: 150px;
+    border-radius: 50%;
+}
+
+.inter {
+    margin-top: 15px;
+}
+
+.inter img{
+    width: 1000px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
